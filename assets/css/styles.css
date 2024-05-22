@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(203, 175, 218);
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil {
+  margin: 50px;
+}
+
+/* Portafolio */
+
+.card {
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: 0.5s;
+  padding: 0 25px;
+  width: 50%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.card:hover img {
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+}
+
+.card img {
+  background-color: black;
+  border: 2px solid #dedede;
+  object-fit: contain;
+  opacity: 0.8;
+  height: 600px;
+  width: 100%;
+}
+
+.content {
+  background-color: #222222;
+  color: #dedede;
+  font-weight: 500;
+  padding: 10px;
+}
+
+img{
+    object-fit: contain;
+}
+
+.footer{
+    background-color: rgb(203, 175, 218);
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
